@@ -3,80 +3,112 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@article{Jung2022BatchMC,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  title={Batch Multivalid Conformal Prediction},
+  author={Christopher Jung and Georgy Noarov and Ramya Ramalingam and Aaron Roth},
+  arxiv={2209.15145},
+  journal={ArXiv},
+  volume={abs/2209.15145},
+  year={2022},
+  abstract={We develop fast distribution-free conformal prediction algorithms for obtaining multivalid coverage on exchangeable data in the batch setting. Multivalid coverage guarantees are stronger than marginal coverage guarantees in two ways: (1) They hold even conditional on group membership -- that is, the target coverage level \(1-\alpha\) holds conditionally on membership in each of an arbitrary (potentially intersecting) group in a finite collection \(G\) of regions in the feature space. (2) They hold even conditional on the value of the threshold used to produce the prediction set on a given example. In fact multivalid coverage guarantees hold even when conditioning on group membership and threshold value simultaneously.
+We give two algorithms: both take as input an arbitrary non-conformity score and an arbitrary collection of possibly intersecting groups \(G\), and then can equip arbitrary black-box predictors with prediction sets. Our first algorithm (BatchGCP) is a direct extension of quantile regression, needs to solve only a single convex minimization problem, and produces an estimator which has group-conditional guarantees for each group in \(G\). Our second algorithm (BatchMVP) is iterative, and gives the full guarantees of multivalid conformal prediction: prediction sets that are valid conditionally both on group membership and non-conformity threshold. We evaluate the performance of both of our algorithms in an extensive set of experiments.},
+  code={https://github.com/ProgBelarus/BatchMultivalidConformal},
+  preview={conformal.png},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{Bastani2022PracticalAM,
+  selected={true},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  title={Practical Adversarial Multivalid Conformal Prediction},
+  author={Osbert Bastani and Varun Gupta and Christopher Jung and Georgy Noarov and Ramya Ramalingam and Aaron Roth},
+  arxiv={2206.01067},
+  journal={36th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  abstract={We give a simple, generic conformal prediction method for sequential prediction that achieves target empirical coverage guarantees against adversarially chosen data. It is computationally lightweight -- comparable to split conformal prediction -- but does not require having a held-out validation set, and so all data can be used for training models from which to derive a conformal score. It gives stronger than marginal coverage guarantees in two ways. First, it gives threshold calibrated prediction sets that have correct empirical coverage even conditional on the threshold used to form the prediction set from the conformal score. Second, the user can specify an arbitrary collection of subsets of the feature space -- possibly intersecting -- and the coverage guarantees also hold conditional on membership in each of these subsets. We call our algorithm MVP, short for MultiValid Prediction. We give both theory and an extensive set of empirical evaluations.},
+  code={https://github.com/ProgBelarus/MultiValidPrediction},
+  preview={conformal.png},
+  slides={MVP_Slides_Conf.pdf},
+  prize={Selected as an Oral Presentation},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{Noarov2021OnlineMM,
+  preview={multiobjective.png},
+  selected={true},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={Online Multiobjective Minimax Optimization: Calibeating and Other Applications},
+  author={Daniel Lee and Georgy Noarov and Mallesh M. Pai and Aaron Roth},
+  journal={36th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  arxiv={2108.03837},
+  abstract={We introduce a simple but general online learning framework, in which at every round, an 		adaptive adversary introduces a new game, consisting of an action space for the learner, an action space for the adversary, and a vector valued objective function that is convex-concave in every coordinate. The learner and the adversary then play in this game. The learner's goal is to play so as to minimize the maximum coordinate of the cumulative vector-valued loss. The resulting one-shot game is not convex-concave, and so the minimax theorem does not apply. Nevertheless, we give a simple algorithm that can compete with the setting in which the adversary must announce their action first, with optimally diminishing regret.
+We demonstrate the power of our simple framework by using it to derive optimal bounds and algorithms across a variety of domains. This includes no regret learning: we can recover optimal algorithms and bounds for minimizing external regret, internal regret, adaptive regret, multigroup regret, subsequence regret, and a notion of regret in the sleeping experts setting. Next, we use it to derive a variant of Blackwell's Approachability Theorem, which we term "Fast Polytope Approachability". Finally, we are able to recover recently derived algorithms and bounds for online adversarial multicalibration and related notions (mean-conditioned moment multicalibration, and prediction interval multivalidity).},
+prize={Selected as an Oral Presentation},
 }
+
+@article{Gupta2022OnlineML,
+  preview={multiobjective.png},
+  selected={true},
+  bibtex_show={true},
+  title={Online Multivalid Learning: Means, Moments, and Prediction Intervals},
+  author={Varun Gupta and Christopher Jung and Georgy Noarov and Mallesh M. Pai and Aaron Roth},
+  arxiv={2101.01739},
+  video={https://www.youtube.com/watch?v=ceCm3GCOVqU},
+  journal={13th Conference on Innovations in Theoretical Computer Science (ITCS)},
+  year={2022},
+  abstract={We present a general, efficient technique for providing contextual predictions that are "multivalid" in various senses, against an online sequence of adversarially chosen examples \( (x,y)\). This means that the resulting estimates correctly predict various statistics of the labels y not just marginally -- as averaged over the sequence of examples -- but also conditionally on \(x \in g\) for any \(g\) belonging to an arbitrary intersecting collection of groups \(G\).
+We provide three instantiations of this framework. The first is mean prediction, which corresponds to an online algorithm satisfying the notion of multicalibration from Hebert-Johnson et al. The second is variance and higher moment prediction, which corresponds to an online algorithm satisfying the notion of mean-conditioned moment multicalibration from Jung et al. Finally, we define a new notion of prediction interval multivalidity, and give an algorithm for finding prediction intervals which satisfy it. Because our algorithms handle adversarially chosen examples, they can equally well be used to predict statistics of the residuals of arbitrary point prediction methods, giving rise to very general techniques for quantifying the uncertainty of predictions of black box algorithms, even in an online adversarial setting. When instantiated for prediction intervals, this solves a similar problem as conformal prediction, but in an adversarial environment and with multivalidity guarantees stronger than simple marginal coverage guarantees.},
+}
+
+@article{doi:10.1287/moor.2021.1144,
+preview={congestion.jpg},
+abbr={Congestion Games},
+show={true},
+author = {Giannakopoulos, Yiannis and Noarov, Georgy and Schulz, Andreas S.},
+title = {Computing Approximate Equilibria in Weighted Congestion Games via Best-Responses},
+arxiv={1810.12806},
+journal = {Mathematics of Operations Research},
+volume = {47},
+number = {1},
+pages = {643-664},
+year = {2022},
+doi = {10.1287/moor.2021.1144},
+URL = {https://doi.org/10.1287/moor.2021.1144},
+eprint = {https://doi.org/10.1287/moor.2021.1144},
+abstract = { We present a deterministic polynomial-time algorithm for computing \( d^{d+o(d)} \)-approximate (pure) Nash equilibria in weighted congestion games with polynomial cost functions of degree at most \(d\). This is an exponential improvement of the approximation factor relative to the previously best deterministic algorithm. An appealing additional feature of the algorithm is that it only uses best-improvement steps in the actual game, as opposed to the previously best algorithms, that first had to transform the game itself. Our algorithm is an adaptation of the seminal algorithm by Caragiannis at al. [2011, 2015], but we utilize an approximate potential function directly on the original game instead of an exact one on a modified game. 
+
+A critical component of our analysis, which is of independent interest, is the derivation of a novel bound of \( [d/W(d/\rho)]^{d+1} \) for the price of anarchy (PoA) of \( \rho \)-approximate equilibria in weighted congestion games, where \(W\) is the Lambert-W function. More specifically, we show that this PoA is exactly equal to \(\Phi_{d,\rho}^{d+1} \), where \( \Phi_{d,\rho} \) is the unique positive solution of the equation \( \rho (x+1)^d = x^{d+1} \). Our upper bound is derived via a smoothness-like argument, and thus holds even for mixed Nash and correlated equilibria, whereas our lower bound is simple enough to apply even to singleton congestion games. },
+bibtex_show={true},
+html={https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1144},
+}
+
+
+@article{Neyman2021BinarySR,
+  preview={incentives.jpg},
+  bibtex_show={true},
+  title={Binary Scoring Rules that Incentivize Precision},
+  author={Eric Neyman and Georgy Noarov and S. Matthew Weinberg},
+  arxiv={2002.10669},
+  journal={22nd ACM Conference on Economics and Computation (EC)},
+  year={2021},
+  abstract={All proper scoring rules incentivize an expert to predict <i> accurately </i> (report their true estimate), but not all proper scoring rules equally incentivize <i> precision. </i> Rather than treating the expert's belief as exogenously given, we consider a model where a rational expert can endogenously refine their belief by repeatedly paying a fixed cost, and is incentivized to do so by a proper scoring rule.
+Specifically, our expert aims to predict the probability that a biased coin flipped tomorrow will land heads, and can flip the coin any number of times today at a cost of c per flip. Our first main result defines an <i> incentivization index </i> for proper scoring rules, and proves that this index measures the expected error of the expert's estimate (where the number of flips today is chosen adaptively to maximize the predictor's expected payoff). Our second main result finds the unique scoring rule which optimizes the incentivization index over all proper scoring rules.
+We also consider extensions to minimizing the ℓth moment of error, and again provide an incentivization index and optimal proper scoring rule. In some cases, the resulting scoring rule is differentiable, but not infinitely differentiable. In these cases, we further prove that the optimum can be uniformly approximated by polynomial scoring rules.
+Finally, we compare common scoring rules via our measure, and include simulations confirming the relevance of our measure even in domains outside where it provably applies.},
+  poster={EC_Poster.pdf},
+}
+
+@article{Guerzhoy2019AIEM,
+  preview={fakenews.avif},
+  bibtex_show={true},
+  title={AI Education Matters: Building a Fake News Detector},
+  author={Michael Guerzhoy and Lisa Zhang and Georgy Noarov},
+  journal={AI Matters},
+  year={2019},
+  volume={5},
+  pages={18-20},
+  pdf={http://sigai.acm.org/static/aimatters/5-3/AIMatters-5-3-05-Guerzhoy.pdf},
+  html={https://dl.acm.org/doi/10.1145/3362077.3362082},
+}
+
+

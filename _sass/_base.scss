@@ -515,6 +515,9 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
+	  .prize {
+		color: var(--global-theme-color) !important; // ADDED FOR BETTER DISPLAY OF PUBLICATIONS
+	  }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
