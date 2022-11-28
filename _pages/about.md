@@ -26,3 +26,4 @@ Throughout my academic journey, I have participated in several enriching researc
 
 I am grateful to be the recipient of several academic awards, including the [Undergraduate Award in Applied and Computational Mathematics](https://www.pacm.princeton.edu/news/2020-undergraduate-program-award-winners-announced) and Princeton's [Shapiro Prize for Academic Excellence](https://odoc.princeton.edu/faculty-staff/shapiro-prize-academic-excellence), and fellowships, including a Joseph Henry Summer Fellowship. I am also a member of the Phi Beta Kappa and Sigma Xi honor societies.
 
+You can check out my papers by navigating to the [Publications](/publications) page or by visiting my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=P0-hDecAAAAJ).
