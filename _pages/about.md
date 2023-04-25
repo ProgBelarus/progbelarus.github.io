@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is George Noarov, I am a 3rd year CS PhD student at the University of Pennsylvania fortunate to be advised by [Michael Kearns](https://cis.upenn.edu/~mkearns) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/). Prior to this, I graduated Magna Cum Laude with a B.A. in Mathematics from [Princeton University](https://math.princeton.edu), where I was fortunate to be advised by [Mark Braverman](https://mbraverm.princeton.edu/) and [Matt Weinberg](https://www.cs.princeton.edu/~smattw/).
+Hi! I am George Noarov, a 3rd year Computer Science PhD student at the University of Pennsylvania fortunate to be advised by [Michael Kearns](https://cis.upenn.edu/~mkearns) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/). Prior to this, I graduated Magna Cum Laude with a B.A. in Mathematics from [Princeton University](https://math.princeton.edu), where I was fortunate to be advised by [Mark Braverman](https://mbraverm.princeton.edu/) and [Matt Weinberg](https://www.cs.princeton.edu/~smattw/).
 
 I am broadly interested in theoretical computer science and machine learning. My current research focus is at the intersection of fair, robust and trustworthy ML and distribution-free uncertainty quantification (in particular, conformal prediction). I also work on algorithmic game theory and online learning.
 
