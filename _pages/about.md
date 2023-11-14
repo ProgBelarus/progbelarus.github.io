@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am George Noarov, a 3rd year Computer Science PhD student at the University of Pennsylvania fortunate to be advised by [Michael Kearns](https://cis.upenn.edu/~mkearns) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/). Prior to this, I graduated Magna Cum Laude with a B.A. in Mathematics from [Princeton University](https://math.princeton.edu), where I was fortunate to be advised by [Mark Braverman](https://mbraverm.princeton.edu/) and [Matt Weinberg](https://www.cs.princeton.edu/~smattw/).
+Hi! I am George Noarov, a Computer Science PhD student at the University of Pennsylvania fortunate to be advised by [Michael Kearns](https://cis.upenn.edu/~mkearns) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/). Prior to this, I graduated Magna Cum Laude with a B.A. in Mathematics from [Princeton University](https://math.princeton.edu), where I was fortunate to be advised by [Mark Braverman](https://mbraverm.princeton.edu/) and [Matt Weinberg](https://www.cs.princeton.edu/~smattw/).
 
-I am broadly interested in theoretical computer science and machine learning. My current research develops techniques for fair, robust and trustworthy ML and distribution-free uncertainty quantification (including conformal prediction). I also work on algorithmic game theory and online learning.
+I am broadly interested in theoretical computer science and machine learning. My current research develops techniques for fair, reliable and trustworthy ML and distribution-free uncertainty quantification. I also work on algorithmic game theory and online learning.
 
 Throughout my academic journey, I have participated in enriching research programs and industry internships, including as a [visiting graduate student](https://simons.berkeley.edu/people/georgy-noarov) in the semester-long [Data-Driven Decision Processes Program](https://simons.berkeley.edu/programs/DataDriven2022) at the [Simons Institute for the Theory of Computing, UC Berkeley](https://simons.berkeley.edu), and as an intern at Goldman Sachs.
 
