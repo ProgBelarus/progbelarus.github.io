@@ -3,6 +3,46 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{noarov2023high,
+  bibtex_show={true},
+  title={High-Dimensional Prediction for Sequential Decision Making},
+  author={Noarov, Georgy and Ramalingam, Ramya and Roth, Aaron and Xie, Stephan},
+  arxiv={2310.17651},
+  journal={42nd International Conference on Machine Learning (ICML)},
+  prize={Selected as a Spotlight Presentation},
+  year={2025}, 
+  abstract={We give an efficient algorithm for producing multi-dimensional forecasts in an online adversarial environment 
+  that have low bias subject to any polynomial number of conditioning events, that can depend both on external context and on 
+  our predictions themselves. We demonstrate the use of this algorithm with several applications. We show how to make predictions 
+  that can be transparently consumed by any polynomial number of downstream decision makers with different utility functions, 
+  guaranteeing them diminishing swap regret at optimal rates. We also give the first efficient algorithms for guaranteeing 
+  diminishing conditional regret in online combinatorial optimization problems for an arbitrary polynomial number of 
+  conditioning events -- i.e. on an arbitrary number of intersecting subsequences determined both by context and 
+  our own predictions. Finally, we give the first efficient algorithm for online multicalibration with \(O(T^{2/3})\) rates 
+  in the ECE metric.},
+}
+
+@article{Noarov2023ScopeMC,
+  bibtex_show={true},
+  title = {The Scope of Multicalibration: Characterizing Multicalibration via Property Elicitation},
+  author = {Georgy Noarov and Aaron Roth},
+  arxiv = {2302.08507},
+  journal = {40th International Conference on Machine Learning (ICML)},
+  year = {2023},
+  abstract = {We make a connection between multicalibration and property elicitation and show that (under mild technical conditions) 
+  it is possible to produce a multicalibrated predictor for a continuous scalar distributional property Γ if and only if Γ 
+  is elicitable.
+  On the negative side, we show that for non-elicitable continuous properties there exist simple data distributions on which even 
+  the true distributional predictor is not calibrated. On the positive side, for elicitable Γ, we give simple canonical algorithms 
+  for the batch and the online adversarial setting, that learn a Γ-multicalibrated predictor. This generalizes past work on 
+  multicalibrated means and quantiles, and in fact strengthens existing online quantile multicalibration results.
+  To further counter-weigh our negative result, we show that if a property \(\Gamma_1\) is not elicitable by itself, but is elicitable 
+  conditionally on another elicitable property \(\Gamma_0\), then there is a canonical algorithm that jointly multicalibrates \(\Gamma_1\) 
+  and \(\Gamma_0\); this generalizes past work on mean-moment multicalibration.
+  Finally, as applications of our theory, we provide novel algorithmic and impossibility results for fair (multicalibrated) 
+  risk assessment.},
+}
+
 @article{Jung2022BatchMC,
   bibtex_show={true},
   title={Batch Multivalid Conformal Prediction},
