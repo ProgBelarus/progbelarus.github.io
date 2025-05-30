@@ -20,9 +20,8 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
-        bundler-cache: true
-    - name: Upgrade Bundler
-      run: gem install bundler -v "~>2.3"
+        bundler-version: '2.3.10'
+        cache: bundler
     - name: Install deps
       run: |
         npm install -g mermaid.cli
