@@ -26,11 +26,11 @@ Throughout my academic journey, I have participated in enriching research progra
 
 My research has been generously supported by an [Amazon Fellowship for Research in Trustworthy AI](https://www.amazon.science/news-and-features/amazon-provides-gift-to-10-penn-engineering-phd-students-for-work-on-trustworthy-ai). I am also grateful to be the recipient of several academic awards, including Princeton's [Shapiro Prize for Academic Excellence](https://odoc.princeton.edu/faculty-staff/shapiro-prize-academic-excellence) and the [Undergraduate Award in Applied and Computational Mathematics](https://www.pacm.princeton.edu/news/2020-undergraduate-program-award-winners-announced), and fellowships, including a Joseph Henry Summer Fellowship. I am a member of the [Phi Beta Kappa](https://www.pbk.org/) and [Sigma Xi](https://www.sigmaxi.org/) honor societies.
 
-I have been an enthusiastic teaching assistant, tutor, and grader for over 10 courses throughout my career at Penn and at Princeton, and am very proud to be the recipient of [School of Engineering Outstanding Teaching Award] for my teaching at Penn. I also worked at Princeton's [McGraw Center for Teaching and Learning](https://mcgraw.princeton.edu/), and volunteered as an instructor for the Princeton Splash program organized by the [Pace Center for Civic Engagement](https://pace.princeton.edu/).
+I have been an enthusiastic teaching assistant, tutor, and grader for over 10 courses throughout my career at Penn and at Princeton, and am very proud to be the recipient of the SEAS Outstanding Teaching Award for my teaching at Penn. I also worked at Princeton's [McGraw Center for Teaching and Learning](https://mcgraw.princeton.edu/), and volunteered as an instructor for the Princeton Splash program organized by the [Pace Center for Civic Engagement](https://pace.princeton.edu/).
 
 In my free time, I enjoy singing and exploring the math of my and my friends' vocalizations, hiking in the mountains, and immersing myself in the atmosphere of bookstores and farmers' markets.
 
 To learn more about my research, see [Publications](/publications) page and my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=P0-hDecAAAAJ). You can contact me at #######@seas.upenn.edu,
 replacing ####### with gnoarov.
 
-<p style="text-align:center;"> <bf> I am on the job market this year (2025-2026)! </bf> </p>
+<p style="text-align:center;"> **I am on the job market this year (2025-2026)!** </p>
